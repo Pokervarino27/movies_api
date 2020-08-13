@@ -1,7 +1,7 @@
 package main
 
-import "movies_api/app"
+import "github.com/pokervarino27/movies_api/cmd"
 
 func main() {
-	app.StartApp()
+	cmd.StartApp()
 }
