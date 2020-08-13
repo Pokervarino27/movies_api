@@ -27,8 +27,8 @@ type redisClient struct {
 func RedisInit() (Conn, error) {
 
 	client := redis.NewClient(&redis.Options{
-		Addr:     "ec2-54-193-123-106.us-west-1.compute.amazonaws.com:6379",
-		Password: "486a247ed44697be66127749a86e7efb3a11f46c",
+		Addr:     "localhost:6379",
+		Password: "",
 		DB:       0,
 	})
 
