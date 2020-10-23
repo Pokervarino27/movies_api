@@ -15,6 +15,7 @@ type Movie struct {
 	Name     string `json:"name"`
 	Year     int    `json:"year"`
 	Director string `json:"director"`
+	Rating   string `json:"rating"`
 }
 
 //CreateMovie create a new movie's register and add in dataBase
